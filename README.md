@@ -37,6 +37,11 @@ DIRECTORY STRUCTURE
   
 5 windows: yii rbac/init
   ubuntu:  php yii rbac/init
+  
+  
+6   проект был сделан на backend части yii2 friendworki
+    .htaccess для пользователей apachi
+    Те, кто использует nginx, могут указать на простату бакканд
 
 
 ```
