@@ -57,4 +57,18 @@ frontend
     widgets/             contains frontend widgets
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
+
+
+запуск проекта
+1 composer install
+2 php init
+3 windows: yii migrate
+  ubuntu:  php yii migrate
+4 windows: yii migrate --migrationPath=@yii/rbac/migrations
+  ubuntu: php yii migrate --migrationPath=@yii/rbac/migrations
+  
+5 windows: yii rbac/init
+  ubuntu:  php yii rbac/init
+
+
 ```
